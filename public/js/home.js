@@ -4,3 +4,6 @@ document.getElementById("main-heading").addEventListener("mouseenter",function (
         this.style.color = "white"
     }, 100);
 });
+
+const date = new Date().getFullYear();
+document.querySelector(".my-footer-class").innerHTML= `All CopyRights Reserved &copy; ${date}`;
