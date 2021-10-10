@@ -1,0 +1,15 @@
+.content-heading {
+    font-family: 'McLaren', cursive;
+}
+
+.my-lead-class {
+    font-size: 1rem;
+    font-family: 'Indie Flower', cursive;
+    color: darkviolet;
+}
+
+.my-btn-class {
+    width: 200px;
+    font-family: 'Acme', sans-serif;
+}
+
