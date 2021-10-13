@@ -19,8 +19,12 @@ app.get("/blogs",function (req,res) {
     res.render("blogs")
 });
 
-app.get("/catalogue",function (req,res) {
-    res.render("catalogue")
+app.get("/resources",function (req,res) {
+    res.render("resources",{
+        clink: "https://bit.ly/3FI48Og",
+        pythonlink: "https://bit.ly/3DyOmU0",
+        weblink: "https://bit.ly/3axEttf"
+    })
 });
 
 app.listen(3000,function () {
