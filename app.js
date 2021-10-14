@@ -22,8 +22,11 @@ app.get("/blogs",function (req,res) {
 app.get("/resources",function (req,res) {
     res.render("resources",{
         clink: "https://bit.ly/3FI48Og",
+        dsalink: "https://bit.ly/3lF4fSD",
         pythonlink: "https://bit.ly/3DyOmU0",
-        weblink: "https://bit.ly/3axEttf"
+        weblink: "https://bit.ly/3axEttf",
+        flutterlink: "https://mega.nz/folder/Ko4y3Awa#5uJvCVjR5gAFXGCAYEr82g",
+        golanglink:"https://bit.ly/3BSXxhq"
     })
 });
 
